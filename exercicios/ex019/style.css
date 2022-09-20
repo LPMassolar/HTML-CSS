@@ -1,0 +1,34 @@
+@charset "UTF 8";
+
+/* -Tudo que se nomeia com "ID" em HTML, equivale a "#" em CSS
+-Tudo que se nomeia com "CLASS" em HTML, equivale a "." em CSS
+
+   -<span> serve para recortar um fragmento afim de estilizá-lo com CSS*/
+
+body {background-color: #ffc3c3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+
+p {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+h1 {color: #a50303;}
+
+h1#principal {text-align: center;
+              background-color: #a52a2a;
+              color: aliceblue;}
+
+h2 {color: aliceblue;
+    text-shadow: 1px 1px 3px rgb(27, 27, 27);}
+
+.básico {background-color: #a85c5c;
+        font-variant:small-caps;}
+
+.intermediário {background-color: #a52a2a;
+               font-variant:small-caps;}
+
+.avançado {background-color: #a50404;
+          font-variant:small-caps;}
+
+.destaque {background-image: linear-gradient(127deg, #fff1db, #ffc3c3 67%);}
+
+
+ 

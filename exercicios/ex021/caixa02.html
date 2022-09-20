@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {font-family: 'Helvetica';
+              background-color: #f5dcbc;
+              margin: 0px;}
+
+        header{background-color: #597559;
+               padding: 10px;
+               margin: 15px 10px;
+               border: auto none #597559;
+               border-radius: 5px;}
+
+        nav {background-color: lightsteelblue;
+             width: fit-content;
+             border: 3px;
+             padding: 3px;
+             border-radius: 5px;
+             box-shadow: inset 5px 5px 7px -2px #3f4750;}
+
+        nav > a {text-decoration: none;
+                 color: #5d6a77;
+                 margin-right: 1px;}  
+                 
+        nav > a:hover {font-weight: bolder;
+                       font-style: italic;}
+
+        main {background-color: #597559;
+              padding: 10px;
+              margin: 15px 10px;
+              border-radius: 5px;}
+
+        article {background-color: #ffb89d;
+                 border: 5px;
+                 border-radius: 5px;
+                 padding: 5px 10px;
+                 margin: 2px;}
+
+        article > aside {background-color: #778899;
+                         width: fit-content;
+                         border-radius: 5px;}
+
+        p#ego {font: italic lighter 1.10em italic;
+               padding: 4px;}
+
+        footer {background-color: #3f533f;
+                color: darkgoldenrod;
+                font: italic bold 18px 'Times New Roman', Times, serif;
+                text-align: center;
+                padding: 1px;
+                margin: 0px;}
+
+        /*footer > p {margin: 0}*/
+
+        h1 {font-family: Georgia, 'Times New Roman', Times, serif}
+    </style>
+    <title>Grouping Tags</title>
+</head>
+    <!-- SITES ANTIGAMENTE:    <div>
+        <div id="cabeçalho">
+            <h1>Título</h1>
+
+            <div id="menu"></div>
+        </div>
+    </div>
+
+    <div id="conteudo"></div>
+
+    <div id="rodape"></div> -->
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">ola</a>
+            <a href="#">ta</a>
+            <a href="#">funfando</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Estamos preparados para o Hexa?</h2>
+                <p>Claramente que sim, depois que o bom velhinho entrar, ganhar a copa vai ser lindo!</p>
+                <aside>
+                    <p id="ego">Artigo escrito por mim mesmo.</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por mim mesmo.</p>
+    </footer>
+</body>
+</html>
