@@ -33,49 +33,38 @@ header {background-color: var(--cor5);
         min-height: 120px;
         text-align: center;
         padding-top: 30px;
-        background-image: linear-gradient(180deg, var(--cor8), var(--cor6), var(--cor7));
-}
+        background-image: linear-gradient(180deg, var(--cor8), var(--cor6), var(--cor7));}
 
 header > h1 {color:var(--cor3);
              font-family: var(--fonte-destaque);
              font-weight: normal;
              margin-bottom: 20px;
              font-size: 2.2em;
-             text-shadow: -2px 1px 2px #00000094;
-
-             
-}
+             text-shadow: -2px 1px 2px #00000094;}
 
 header > p {color: white;
             font-family: var(--fonte-padrao);
             font-size: 1.2em;
             max-width: 550px;  
             padding-right: 10px;
-            padding-left: 10px;
+            padding-left: 10px;            
             margin: auto;
-            margin: 25px;
-            text-shadow: -2px 1px 2px #00000094;
-
-}
+            text-shadow: -2px 1px 2px #07070794;}
 
 nav {background-color: var(--cor7);
      padding: 10px; 
-     box-shadow: 0px 7px 9px #000000a4;  
-}
+     box-shadow: 0px 7px 9px #000000a4;}
 
 nav > a {color: white;
          padding: 10px;
          text-decoration: none;
          font-family: var(--fonte-padrao);
          font-weight: 600;
-         transition-duration: .7s;
-         
-}
+         transition-duration: .7s;}
 
 nav > a:hover {background-color: var(--cor8);
                color: var(--cor7); 
-               border-radius:  7px;
-}
+               border-radius:  7px;}
 
 main {background-color: var(--cor5);
       min-width: 300px;
@@ -85,15 +74,12 @@ main {background-color: var(--cor5);
       padding: 20px;
       box-shadow: 0px 0px 10px #00000081;
       border-bottom-left-radius: 15px;
-      border-bottom-right-radius: 15px;
-
-}
+      border-bottom-right-radius: 15px;}
 
 main h1 {color:var(--cor3);
          font-family: var(--fonte-android);
          font-weight: normal;
-         font-size: 1.7;
-        }
+         font-size: 1.7;}
 
 main h2 {font-family: var(--fonte-android);
          color: var(--cor2);
@@ -102,33 +88,26 @@ main h2 {font-family: var(--fonte-android);
          background-image:linear-gradient(147deg, #FFEB66 37%, transparent);
          width: fit-content;
          padding-left: 10px; 
-         /*ou text-indent: 10px*/
-         
-}
+         /*ou text-indent: 10px*/}
 
 main p {margin: 15px 0px;
         text-align: justify;
         text-indent: 30px;
         font-size: 1.05em;    
         line-height: 1.8em;
-        font-family: var(--fonte-padrao);
-}
+        font-family: var(--fonte-padrao);}
 
 main strong {color: var(--cor7);
-             font-weight: bolder;
-               
-}
+             font-weight: bolder;}
 
 main a {text-decoration: none;
         font-weight: bold;
         color: var(--cor7);
         background-color: white;
-        padding: 1.2px 5.5px; 
-}
+        padding: 1.2px 5.5px;}
 
 main a:hover {text-decoration: underline;
-              color:var(--cor6); 
-}
+              color:var(--cor6);}
 
 main img {width: 100%;}
 
@@ -141,51 +120,41 @@ div.video {background-color: var(--cor7);
            margin: 0px -20px 30px -20px;
            padding: 20px;
            padding-bottom: 50%;
-           position: relative
-}
+           position: relative;}
 
 div.video > iframe {position: absolute;
                     top: 5%;
                     left: 5%;   
                     width: 90%;
-                    height: 90%;
-
-         
-                    
-}
+                    height: 90%;}
 
 aside {background-color: var(--cor1);
        padding: 10px; 
        border-radius: 15px;
-       box-shadow: 3px 3px 8px #000000c0;  
-}
+       box-shadow: 3px 3px 8px #000000c0;}
 
 aside > h3 {background-color: var(--cor6);
             color: white;
             padding: 10px 0px 10px 14px;
             margin: -10px -10px 0px 
             -10px;
-            border-radius: 10px 10px 0px 0px;  
-}
+            border-radius: 10px 10px 0px 0px;}
 
 aside > ul {list-style-position:inside;
             columns: 2;
             padding: 15px;
-            list-style-type: '\2714\00A0\00A0';
-}
+            list-style-type: '\2714\00A0\00A0';}
 
 
 footer {background-color: var(--cor6);
         color: goldenrod;
         text-align: center;
         font-size: 1.1em;
-        padding: 5px;
-}
+        padding: 5px;}
 
 footer > p > a {color: white;
                 font-weight: 1.2em;
-                 text-decoration: none;
-        }
+                 text-decoration: none;}
 /*ou footer a */
 
 footer a:hover {font-weight: bold;} 
