@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {margin: 0px;
+           padding: 0px;}
+
+        body {background-image: url(imagens/wallpaper005.jpg);
+
+            background-position: center top;
+
+            background-attachment: fixed;
+
+            height: 100%;
+        }
+
+        main {background-color: white;
+              width: 600px;
+              height: 600px;
+              margin: auto;
+              border-radius: 12px;
+              box-shadow:  inset 0px 0px 10px rgb(35 35 65 / 66%);}
+
+        main h1 {
+            background-color: #356149;
+            border-top-left-radius: 12px;
+            border-top-right-radius:12px;
+            margin-top: 40px;
+            color: #5987be;
+            text-align: center;
+        }
+
+        main div.quadrado {display:inline-block;
+                      border-radius: 10px;
+                      margin: 45px;
+                      background-color: #356149;
+                      width: 100px; 
+                      height: 100px;}
+
+        div#q1:hover {box-shadow: 5px -4px 5px 0px #1e1e1fa8;
+                      transition-duration: 1s;
+                      background-color: #5987be;              
+        }
+
+        div#q2:hover {box-shadow: inset 1.5px 1.5px 6px 1px #000000b7; /* black*/
+                      transition-duration: 1s;
+                      background-color: #5987be;
+        }
+
+        div#q3:hover {background-color: #5987be;
+                      transition-duration: 2s;
+        }
+
+        /*testar com fotos minhas no hover*/
+        
+    </style>
+    <title>Experimento</title>
+</head>
+<body>
+    <main>
+        <h1>Olá, Mundo!</h1>
+
+        <div><div class="quadrado" id="q1">
+
+        </div>
+    
+        <div class="quadrado" id="q2">
+    
+        </div>
+    
+        <div class="quadrado" id="q3">
+    
+        </div>
+    </main>
+
+    
+</body>
+</html>
