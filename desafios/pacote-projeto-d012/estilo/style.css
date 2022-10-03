@@ -54,8 +54,8 @@ section.imagem {background-color: burlywood;
                 color: white;
 }
 
-section.imagem p {background-color: rgb(61, 60, 60);
-                  width: 400px;  
+section.imagem p {background-color: #3d3c3c;
+                  width: fit-content;  
 }
 
 footer {background-color: #246b43;
