@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+* {margin: 0px;
+   padding:0px;
+
+}
+
+/* configurações iguais pros dois*/
+html, body {background-color: #9cb9ee;
+            min-height: 100vh;
+}
+
+header {background-color: #d64361;
+        color: white;
+        text-align: center;
+}
+
+header h1 {padding-top: 50px;
+           font-variant: small-caps; 
+}
+
+header p {padding-bottom: 50px;
+           
+}
+/*coloquei o padding bottom e padding top em seletores separados, pois queria centralizar o conteúdo e manter a simetria do espaçamento.*/ 
+
+header a, footer a {color: white;
+   text-decoration: none; 
+   font-weight: bolder; 
+}
+
+header a:hover {background-color: #9cb9ee;
+ width: auto;
+ box-shadow: inset -3px 3px 10px 0px #69091c; 
+ border-radius: 15px;  
+}
+
+footer a:hover {background-color: #d64361;
+    width: auto;
+    box-shadow: inset -3px 3px 10px 0px #69091c; 
+    border-radius: 15px;}
+
+section {padding-top: 10vh;
+         padding-bottom: 10vh;
+         line-height: 2em;
+         padding-left: 35px;
+}
+
+section.normal {background-color: #9cb9ee;
+                color: white;
+}
+
+section.imagem {background-color: burlywood;
+                color: white;
+}
+
+section.imagem p {background-color: rgb(61, 60, 60);
+                  width: 400px;  
+}
+
+footer {background-color: #246b43;
+        text-align: center;
+        color: white;
+        padding: 10px;
+}
