@@ -6,74 +6,76 @@
 
 :root {--font1: Verdana, Geneva, Tahoma, sans-serif;
        --fonte2: 'Inter Tight', sans-serif; 
-       --fonte3: 'Lobster', 'cursive';
-}
+       --fonte3: 'Lobster', 'cursive';}
 
 * {margin: 0px;
-   padding:0px;
-}
+   padding:0px;}
 
 /* configurações iguais pros dois*/
 html, body {background-color: #9cb9ee;
             min-height: 100vh;
-            font-family: var(--font1);
-}
+            font-family: var(--font1);}
 
 header {background-color: #d64361;
         color: white;
-        text-align: center;
-}
+        text-align: center;}
 
 header h1 {padding-top: 50px;
            font-variant: small-caps; 
            font-family: var(--fonte2);
-           font-size: 5vw;
-}
+           font-size: 5vw;}
 
-header p {padding-bottom: 50px;
-           
-}
+header p {padding-bottom: 50px;}
 /*coloquei o padding bottom e padding top em seletores separados, pois queria centralizar o conteúdo e manter a simetria do espaçamento.*/ 
 
 header a, footer a {color: white;
    text-decoration: none; 
-   font-weight: bolder; 
-}
+   font-weight: bolder;}
 
 header a:hover {background-color: #9cb9ee;
- width: auto;
- box-shadow: inset -3px 3px 10px 0px #69091c; 
- border-radius: 15px;  
-}
+                width: auto;
+                box-shadow: inset -3px 3px 10px 0px #69091c; 
+                border-radius: 15px; 
+                padding: 7px;
+                text-shadow: 0px 2px 2px #0e0e0e;
+            }
 
 footer a:hover {background-color: #d64361;
-    width: auto;
-    box-shadow: inset -3px 3px 10px 0px #69091c; 
-    border-radius: 15px;}
+                width: auto;
+                box-shadow: inset -3px 3px 10px 0px #69091c; 
+                border-radius: 15px;
+                padding: 7px;
+                text-shadow: 0px 2px 2px #0e0e0e;}
 
 section {padding-top: 10vh;
          padding-bottom: 10vh;
          line-height: 2em;
          padding-left: 35px;
          font-family: var(--fonte3);
-         font-size: 3vw;
-}
+         font-size: 3vw;}
+
+section > p {padding-bottom: 2em;}
 
 section.normal {background-color: #9cb9ee;
-                color: white;
-}
+                color: white;}
 
-section.imagem {background-color: burlywood;
+section.imagem {background-color: rgb(51, 51, 51);
                 color: white;
-}
+                box-shadow: inset 6px 6px 13px 0px black;background-size: cover;
+                background-attachment: fixed;}
 
-section.imagem p {background-color: #3d3c3c;
- display: inline-block;
- padding: 10px;
-}
+section.imagem > p {display: inline-block;
+                  background-color: rgba(0, 0, 0, 0.493);
+                  padding: 10px;}
+
+section#img01 {background-image: url('../imagens/background001.jpg');
+               background-position: right center;
+               text-shadow: 1.5px 1.5px 0.6px rgba(0, 0, 0, 0.781);}
+               
+
+section#img02 {background-image: url('../imagens/background002.jpg');}
 
 footer {background-color: #246b43;
         text-align: center;
         color: white;
-        padding: 10px;
-}
+        padding: 10px;}
