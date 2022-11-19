@@ -10,11 +10,26 @@
 <body>
     <h1>Teste de Formulário</h1>
 
-    <form action="cadastro.php" method="get" autocomplete="on">
-        <!--<fieldset>
-            <legend></legend>
-        </fieldset>-->
-        <input type="color" name="" id="">
+    <form action="cadastro.php" method="POST" autocomplete="on">
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="color" id="icor">
+        </p>
+
+        <p>
+            <label for="inivel">Nível de Satisfação:</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="7" value="3.5">
+        </p>
+
+        <p>
+            <label for="ifoto">Foto de Perfil</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Redefinir">
+        <p>
     </form>
 </body>
 </html>
